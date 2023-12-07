@@ -1,0 +1,128 @@
+.like-input .false {
+    color: rgb(162, 162, 162);
+    margin: 5px 5px;
+}
+
+.like-input .false:hover {
+    color: rgb(133, 242, 111);
+
+}
+
+.like-input .true {
+    color: rgb(30,315,96);
+    margin: 5px 5px;
+
+}
+
+.fa-heart {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+#detail-page {
+    background-color: rgb(17, 16, 16);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#album-image {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+
+.album-details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album-buttons {
+    display: flex;
+    margin-left: 50px;
+    align-content: center;
+}
+
+
+.album-header {
+    display: flex;
+}
+
+.album-description::before {
+    content: "・";
+}
+
+:where(.fa-trash-alt, .fa-plus) {
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(188, 188, 188);
+
+}
+
+:where(.fa-plus, .fa-trash-alt):hover {
+    font-size: 30px;
+    color: white;
+}
+
+
+.fa-times {
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(188, 188, 188);
+
+}
+.fa-times:hover {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-edit {
+    font-size: 28px;
+    color: rgb(188, 188, 188);
+}
+.fa-edit:hover {
+    font-size: 30px;
+    color: white;
+}
+
+
+.song-button {
+    display: flex;
+}
+
+.fa-clock {
+    color: white;
+    font-size: 26px;
+}
+
+.album-table {
+    width: 90%;
+    margin: 40px;
+    font-size: 18px;
+}
+
+th {
+    border-bottom: white solid 1px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+td {
+    padding-top: 10px;
+}
+
+.play-button {
+    font-size: 28px;
+}
+
+.album-length {
+    color:rgb(162, 162, 162)
+}

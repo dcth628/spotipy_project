@@ -1,0 +1,62 @@
+.profile-dropdown {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border-radius: 7px;
+  border: rgb(248, 249, 219) solid 1px;
+  width: 150px;
+  height: 120px;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 40px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.logout {
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+}
+
+.home-icon {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
+.nav-bar {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(17, 16, 16);
+  border-radius: 10px;
+  width: 180px;
+  height: fit-content;
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 60px);
+  align-items: center;
+}
+
+.about-devs-btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-devs-btn:hover {
+  cursor: pointer;
+}

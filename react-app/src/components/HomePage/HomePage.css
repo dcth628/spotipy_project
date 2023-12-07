@@ -1,0 +1,55 @@
+.no-profile {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-decoration: none;
+}
+
+a:visited,
+a:link {
+    color:white;
+    text-decoration: none;
+}
+.no-profile-header {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    align-content: center;
+}
+
+.no-user-all-albums {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.no-profile h2 {
+    border-bottom: solid white 1px;
+    margin-right: 75%
+}
+
+.no-profile-header img {
+    border-radius: 100%;
+}
+
+.home-album-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.home-album-card:hover {
+    cursor: pointer;
+}
+
+.albumName {
+    display: inline-block;
+    flex-direction: column;
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

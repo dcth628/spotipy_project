@@ -1,0 +1,128 @@
+/* .no-profile {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+} */
+
+/* .no-profile-header {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    align-content: center;
+} */
+
+/* .no-user-all-albums {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+} */
+
+/* .no-profile h2 {
+    border-bottom: solid white 1px;
+    margin-right: 75%
+}
+
+.no-profile-header img {
+    border-radius: 100%;
+} */
+
+.profile-page-whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+/* ************** */
+.profile-page-header {
+    display: flex;
+}
+
+#user-img {
+    border-radius: 60px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.user-data {
+    margin-top: 80px;
+}
+
+/* *************** */
+
+.play-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* ****************** */
+.album-display h3,
+.playlist-display h3 {
+    padding-bottom: 30px;
+    border-bottom: solid white 2px;
+    margin-right: 75%;
+    min-width: 175px;
+}
+
+#album-img,
+.profile-playlist-img {
+    border-radius: 5px;
+}
+
+.album-display,
+.playlist-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-details {
+    display: flex;
+    justify-content: center;
+}
+
+.album-card,
+.playlist-card {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    width: 100px;
+}
+
+.playlist-card:hover,
+.album-card:hover {
+    cursor: pointer;
+}
+
+#link-to-album-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-to-album {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+}
+.profile-section div {
+    margin-right: auto;
+}
+
+.album-bar {
+    display: flex;
+}
+
+.user-music,
+.section-three {
+    display: flex;
+    width: 80%;
+}

@@ -1,0 +1,13 @@
+.fa-user-circle {
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+}
+
+.fa-user-circle:hover {
+    cursor: pointer;
+}
+
+.profile-btn:hover {
+    cursor: pointer;
+  }

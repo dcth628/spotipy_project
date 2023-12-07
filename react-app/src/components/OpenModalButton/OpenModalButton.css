@@ -1,0 +1,35 @@
+:where(.fa-trash-alt, .fa-plus) {
+    font-size: 28px;
+    line-height: 30px;
+    color: rgb(188, 188, 188);
+    margin: 5px 5px;
+}
+
+:where(.fa-plus, .fa-trash-alt):hover {
+    font-size: 28px;
+    color: white;
+}
+
+
+.fa-times {
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(188, 188, 188);
+    margin: 5px 5px;
+}
+
+.fa-times:hover {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-edit {
+    font-size: 24px;
+    color: rgb(188, 188, 188);
+    margin: 5px 5px;
+}
+
+.fa-edit:hover {
+    font-size: 24px;
+    color: white;
+}

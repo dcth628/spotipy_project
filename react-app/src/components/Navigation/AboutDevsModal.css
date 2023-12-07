@@ -1,0 +1,38 @@
+.about-devs-modal {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: 1px solid rgb(248, 249, 219);
+    border-radius: 5px;
+    width: 600px;
+}
+
+.dev-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+
+.dev-name {
+    display: flex;
+    justify-content: center;
+}
+
+.github-link,
+.linkedin-link {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.github-link:hover,
+.linkedin-link:hover {
+    cursor: pointer;
+    background-color: #1dd660;
+    color: black;
+}
